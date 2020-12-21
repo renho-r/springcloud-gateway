@@ -1,0 +1,15 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: renho-gateway-discovery
+  cloud:
+    nacos:
+      discovery:
+        server-addr: myserver:8848
+        namespace: renho
+        group: renho
+    gateway:
+      discovery:
+        locator:
+          enabled: true
