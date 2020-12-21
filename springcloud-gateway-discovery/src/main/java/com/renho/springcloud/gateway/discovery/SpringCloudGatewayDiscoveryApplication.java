@@ -7,6 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.cloud.gateway.route.RouteDefinitionLocator;
 import org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator;
+import org.springframework.web.reactive.HandlerMapping;
 import org.springframework.web.reactive.handler.SimpleUrlHandlerMapping;
 
 //@SpringCloudApplication
@@ -15,6 +16,7 @@ import org.springframework.web.reactive.handler.SimpleUrlHandlerMapping;
 public class SpringCloudGatewayDiscoveryApplication {
 
     public static void main( String[] args ) {
+//        HandlerMapping
 //        RouteDefinitionLocator
         SpringApplication.run(SpringCloudGatewayDiscoveryApplication.class, args);
     }
